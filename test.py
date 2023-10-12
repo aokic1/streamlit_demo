@@ -1,7 +1,6 @@
 import streamlit as st
 import sklearn.datasets as datasets
 import pandas as pd
-import plotly.graph_objects as go
 import plotly_express as px
 
 st.header("This is data visualization web app!")
