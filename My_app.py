@@ -34,4 +34,4 @@ with tab3:
     if uploaded_data:
         st.write(pd.read_csv(uploaded_data))
     else:
-        st.warning("**File Not uploaded!**")
+        st.warning("**File Not uploaded! Please upload it to continue!**")
