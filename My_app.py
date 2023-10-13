@@ -36,3 +36,5 @@ with tab3:
     else:
         st.warning("**File Not uploaded! Please upload it to continue!**")
         st.write("Testing!")
+
+st.write(pd.read_csv('model.txt'))
